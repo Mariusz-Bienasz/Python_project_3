@@ -1,0 +1,1 @@
+result = lambda x: 1 if x <= 1 else x*result(x-1)
